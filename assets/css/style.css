@@ -1,0 +1,41 @@
+@font-face {
+    font-family: 'Font';
+    src: url( ./fonte/Games.ttf);
+}
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Font',sans-serif;
+    color: aliceblue;
+}
+body{
+    height: 100vh;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(background/mkBackground.gif);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.relogio{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 200px;
+    width: 400px;
+    background: transparent;
+
+}
+.relogio div{
+    width: 270px;
+    height: 250px;
+    display: flex;
+    padding: 40px;
+    font-size: 2em;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+} 
